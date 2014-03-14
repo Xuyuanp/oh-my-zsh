@@ -80,15 +80,3 @@ export LC_ALL=en_US.UTF-8
 export LANG_ALL=en_US.UTF-8
 
 [[ -s /usr/local/etc/autojump.sh ]] && . /usr/local/etc/autojump.sh
-
-if [[ -s ~/.zsh-autosuggestions/autosuggestions.zsh ]]; then
-    source ~/.zsh-autosuggestions/autosuggestions.zsh
-
-    zle-line-init() {
-        zle autosuggest-start
-    }
-
-    zle -N zle-line-init
-fi
-
-[[ -s ~/.zsh-history-substring-search/zsh-history-substring-search.zsh ]] && source ~/.zsh-history-substring-search/zsh-history-substring-search.zsh 
