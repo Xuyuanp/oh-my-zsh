@@ -47,7 +47,7 @@ ZSH_THEME="my-robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 case `uname` in
     Darwin)
-    plugins=(brew autojump osx xcode sublime git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting);;
+    plugins=(brew repo github npm autojump osx xcode sublime git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting);;
     Linux)
     plugins=(command-not-found archlinux git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting);;
     *)
@@ -79,4 +79,3 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/share/bin"
 export LC_ALL=en_US.UTF-8
 export LANG_ALL=en_US.UTF-8
 
-[[ -s /usr/local/etc/autojump.sh ]] && . /usr/local/etc/autojump.sh
