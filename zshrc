@@ -47,11 +47,11 @@ ZSH_THEME="my-robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 case `uname` in
     Darwin)
-    plugins=(brew repo github npm autojump osx xcode sublime git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting);;
+    plugins=(brew brew-cask repo github npm autojump osx xcode sublime git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting git-flow-completion);;
     Linux)
-    plugins=(command-not-found archlinux git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting);;
+    plugins=(command-not-found archlinux git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting git-flow-completion);;
     *)
-    plugins=(git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting)
+    plugins=(git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting git-flow-completion)
 esac
 
 source $ZSH/oh-my-zsh.sh
