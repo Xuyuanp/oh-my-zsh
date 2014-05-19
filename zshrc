@@ -47,7 +47,7 @@ ZSH_THEME="my-robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 case `uname` in
     Darwin)
-    plugins=(brew brew-cask repo github npm autojump osx xcode sublime git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting git-flow-completion);;
+    plugins=(brew brew-cask docker repo github npm autojump osx xcode sublime git git-extras git-prompt go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting git-flow-completion sudo);;
     Linux)
     plugins=(command-not-found archlinux git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting git-flow-completion);;
     *)
