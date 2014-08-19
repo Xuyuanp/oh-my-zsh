@@ -45,14 +45,8 @@ ZSH_THEME="my-robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-case `uname` in
-    Darwin)
-    plugins=(brew brew-cask docker repo github npm autojump osx xcode sublime git git-extras git-prompt go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting git-flow-completion sudo);;
-    Linux)
-    plugins=(command-not-found archlinux git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting git-flow-completion);;
-    *)
-    plugins=(git git-extras go redis-cli custom-aliases encode64 gem mercurial web-search zsh-syntax-highlighting git-flow-completion)
-esac
+
+plugins=(docker git git-flow git-prompt go pacman tmux zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
